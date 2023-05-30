@@ -11,8 +11,8 @@ namespace Pureba2.Wpf.Controller
         {
             ListaPersonas = new List<Persona>();
             ListaPersonas.Add(new Persona() { Nombre = "Mario", Apellido = "Ortega", Edad = 50 });
-            ListaPersonas.Add(new Persona() { Nombre = "Mariano", Apellido = "Crespo", Edad = 50 });
-            ListaPersonas.Add(new Persona() { Nombre = "Blanca", Apellido = "duque", Edad = 51 });
+            ListaPersonas.Add(new Persona() { Nombre = "Mariano", Apellido = "Perez", Edad = 50 });
+            ListaPersonas.Add(new Persona() { Nombre = "Blanca", Apellido = "Lopez", Edad = 51 });
         }
         public void DeletePersona(int id)
         {
